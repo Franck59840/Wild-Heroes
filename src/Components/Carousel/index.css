@@ -1,0 +1,22 @@
+.carouselLayout {
+  width: auto;
+  margin: 30px auto;
+}
+
+.slider-single-content {
+  box-shadow: none !important;
+}
+
+.react-3d-carousel .slider-container .slider-right div {
+  border: none;
+}
+
+.react-3d-carousel .slider-container .slider-left div {
+  border: none;
+}
+
+@media screen and (max-width: 700px) {
+  .carouselLayout {
+    margin: 30px auto 150px auto;
+  }
+}

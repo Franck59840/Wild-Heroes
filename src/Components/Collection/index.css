@@ -1,0 +1,9 @@
+.collecDisplay {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.cardDisplay {
+  margin: 10px;
+}

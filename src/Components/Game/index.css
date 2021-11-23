@@ -1,0 +1,59 @@
+.gameLayout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.wop {
+  width: 800px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border: solid 5px var(--secondary-color);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.wopGif {
+  width: 50%;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.wopGif img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.wopTitle {
+  color: var(--secondary-color);
+  font-size: 30px;
+  text-align: center;
+}
+
+.wopSub {
+  color: var(--secondary-color);
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .wop {
+    width: 80vw;
+  }
+
+  .wopGif {
+    width: 80%;
+  }
+
+  .wopTitle {
+    font-size: 24px;
+  }
+
+  .wopSub {
+    font-size: 18px;
+  }
+}

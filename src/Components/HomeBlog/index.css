@@ -1,0 +1,33 @@
+.homeNews {
+  display: block;
+  margin: auto auto;
+  padding-bottom: 10%;
+  background-color: #ffb400;
+  width: 75%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.homeNews h3 {
+  font-size: 35px;
+  color: var(--main-color);
+}
+
+@media only screen and (min-width: 600px) {
+  .homeNews {
+    display: block;
+    padding-bottom: 2%;
+    background-color: #ffb400;
+    width: 86%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .articleList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+  }
+}

@@ -1,0 +1,140 @@
+@media only screen and (min-width: 700px) {
+  .yellowBars {
+    display: none;
+  }
+
+  .burgerImg {
+    display: none;
+  }
+
+  nav.navBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 70px;
+    height: 100vh;
+    background-color: var(--secondary-color);
+
+    position: sticky;
+    top: 0;
+    transition: 400ms;
+    margin-bottom: -300px;
+
+  }
+
+  .menuLogo {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    background-color: var(--secondary-color);
+    border: 0;
+  }
+
+  .menuBars {
+    border-top: 2px solid black;
+    padding: 0;
+    display: flex;
+    color: #000;
+  }
+
+  .menuBars:hover {
+    background-color: black;
+    color: var(--secondary-color);
+  }
+
+  nav.navMenuActive {
+    background-color: var(--secondary-color);
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    height: 100vh;
+    width: 190px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    transition: 600ms;
+    margin-bottom: -300px;
+  }
+
+  .textShow {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .textHide {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .yellowBars {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border: none;
+    background: none;
+  }
+
+  .burgerImg img {
+    width: 100%;
+  }
+
+  .burgerImg {
+    background-size: contain;
+    width: 100vw;
+  }
+
+  .navMenuActive {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--secondary-color);
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .menuLogo {
+    display: none;
+  }
+
+  .menuBars {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 16px;
+    width: 100vw;
+  }
+
+  .textShow {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .menuBars:hover {
+    background-color: black;
+    color: var(--secondary-color);
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
