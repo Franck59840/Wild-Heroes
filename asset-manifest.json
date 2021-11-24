@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Franck59840/Wild-Heroes/static/css/main.a7f3fca1.chunk.css",
-    "main.js": "/Franck59840/Wild-Heroes/static/js/main.c23ed727.chunk.js",
-    "main.js.map": "/Franck59840/Wild-Heroes/static/js/main.c23ed727.chunk.js.map",
-    "runtime-main.js": "/Franck59840/Wild-Heroes/static/js/runtime-main.9586c1e7.js",
-    "runtime-main.js.map": "/Franck59840/Wild-Heroes/static/js/runtime-main.9586c1e7.js.map",
-    "static/js/2.e745ca99.chunk.js": "/Franck59840/Wild-Heroes/static/js/2.e745ca99.chunk.js",
-    "static/js/2.e745ca99.chunk.js.map": "/Franck59840/Wild-Heroes/static/js/2.e745ca99.chunk.js.map",
+    "main.js": "/Franck59840/Wild-Heroes/static/js/main.29f57d53.chunk.js",
+    "main.js.map": "/Franck59840/Wild-Heroes/static/js/main.29f57d53.chunk.js.map",
+    "runtime-main.js": "/Franck59840/Wild-Heroes/static/js/runtime-main.140f825d.js",
+    "runtime-main.js.map": "/Franck59840/Wild-Heroes/static/js/runtime-main.140f825d.js.map",
+    "static/js/2.c01f3277.chunk.js": "/Franck59840/Wild-Heroes/static/js/2.c01f3277.chunk.js",
+    "static/js/2.c01f3277.chunk.js.map": "/Franck59840/Wild-Heroes/static/js/2.c01f3277.chunk.js.map",
     "index.html": "/Franck59840/Wild-Heroes/index.html",
     "static/css/main.a7f3fca1.chunk.css.map": "/Franck59840/Wild-Heroes/static/css/main.a7f3fca1.chunk.css.map",
-    "static/js/2.e745ca99.chunk.js.LICENSE.txt": "/Franck59840/Wild-Heroes/static/js/2.e745ca99.chunk.js.LICENSE.txt",
+    "static/js/2.c01f3277.chunk.js.LICENSE.txt": "/Franck59840/Wild-Heroes/static/js/2.c01f3277.chunk.js.LICENSE.txt",
     "static/media/BalancePatch.c7595ed9.jpeg": "/Franck59840/Wild-Heroes/static/media/BalancePatch.c7595ed9.jpeg",
     "static/media/Cards.affd5efe.png": "/Franck59840/Wild-Heroes/static/media/Cards.affd5efe.png",
     "static/media/Expac.a89b2570.png": "/Franck59840/Wild-Heroes/static/media/Expac.a89b2570.png",
@@ -33,9 +33,9 @@
     "static/media/rocketlogo.139a8a7b.png": "/Franck59840/Wild-Heroes/static/media/rocketlogo.139a8a7b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9586c1e7.js",
-    "static/js/2.e745ca99.chunk.js",
+    "static/js/runtime-main.140f825d.js",
+    "static/js/2.c01f3277.chunk.js",
     "static/css/main.a7f3fca1.chunk.css",
-    "static/js/main.c23ed727.chunk.js"
+    "static/js/main.29f57d53.chunk.js"
   ]
 }
