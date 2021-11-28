@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Carousel } from '3d-react-carousal';
-import { useEffect } from 'react/cjs/react.development';
 import GameCard from '../GameCard';
 import './index.css';
 
